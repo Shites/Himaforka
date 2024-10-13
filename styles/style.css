@@ -1,0 +1,196 @@
+.landing-page{
+   background: url(/asset/image/landing.png);
+   width: 100%;
+   padding: 1% 5% 10% 5%;
+   background-size: cover;
+}
+.nav-item{
+    color: white;
+}
+.dropdown-menu .dropdown-item a{
+    color: black;
+}
+
+.container-fluid.container-left{
+    width: 75%;
+}
+
+
+#mainNav .nav-link {
+        color: white;
+    } 
+
+.nav-item a{
+    font-size: 20px;
+}
+
+.nav-item{
+    padding-left: 0.5%;
+    padding-right: 3.5%;
+}
+
+
+
+#mainNav.navbar-shrink {
+    background-color: #fff;
+    
+  }
+  #mainNav.navbar-shrink .nav-link {
+    color: #000;
+  }
+  #mainNav.navbar-shrink .nav-link:hover {
+    color: black;
+  }
+  #mainNav.navbar-shrink .nav-link:active {
+    color: white;
+  }
+  #mainNav.navbar-shrink .nav-link.active {
+    outline: none;
+    border-bottom: 0.25rem solid #133F66;
+  }
+
+
+
+.logo{
+    width: 80%;
+}
+
+.container-landing{
+    padding-top: 13%;
+    padding-left: 2%;
+    padding-bottom: 6%;
+}
+
+.title-image{
+    position: absolute;
+    width: 53%;
+    top: 0%;
+    left: 47%;
+}
+
+
+.big-heading{
+    font-size:6rem;
+    font-family: 'poppins';
+    line-height: 1;
+    font-weight: 900;
+    color: #ffff;
+}
+
+.hero-bg{
+    color: #133F66;
+    background-color: #ffff;
+    width: 145%;
+    position: relative;
+    opacity: 80%;
+}
+
+.button-text{
+    color: white;
+}
+
+.btn.btn-secondary{
+    font-size: 20px;
+    width: 60%;
+    height: 12%;
+}
+
+.btn-secondary{
+    background-color: rgb(255, 255, 255,35%);
+}
+
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+    font-family: 'Poppins';
+    
+}
+
+    h1, h2, h3, h4, h5, h6{
+    font-family: 'Poppins'; 
+    font-weight: bold;
+}
+
+.heading-p{
+    color: white;
+    font-size: 24px;
+    
+}
+
+
+
+p{
+    color: #8f8f8f;
+}
+
+
+/* About Section */
+
+
+.about-container{
+    padding: 10% 5% 3% 5%;
+}
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 1s ease;
+  }
+  
+  .reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
+  }
+  
+
+.abt-title{
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+}
+
+.abt-para{
+    margin-top: 2%;
+    font-size: 26px;
+    padding: 0% 20% 0% 20%;
+    text-align: center;
+    color: black;
+}
+
+.abt-titleblue{
+    padding: 0% 0.5%;
+    color: white;
+    background-color: #133F66;
+}
+
+.ytvid{
+    display: block;
+    height: 750px;
+    width: 85%;
+    margin: 6% auto 6% auto;
+    border-radius: 20px;
+
+}
+
+/* Information */
+
+.inf-container{
+    padding: 10% 5% 3% 5%;
+    background: url(/asset/image/bginf.png);
+    background-size: cover;
+}
+
+.inf-title{
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-size:50px ;
+}
+
+.inf-titlewhite{
+    background-color: white;
+    color: #133F66;
+    padding: 0% 2%;
+}
+    
