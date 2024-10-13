@@ -1,5 +1,5 @@
 .landing-page{
-   background: url(/asset/image/landing.png);
+   background: url(../asset/image/landing.png);
    width: 100%;
    padding: 1% 5% 10% 5%;
    background-size: cover;
@@ -177,7 +177,7 @@ p{
 
 .inf-container{
     padding: 10% 5% 3% 5%;
-    background: url(/asset/image/bginf.png);
+    background: url(../asset/image/bginf.png);
     background-size: cover;
 }
 
