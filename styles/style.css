@@ -473,4 +473,48 @@ p{
     border-radius: 20px;
 }
   
+.container-ks-content {
+    text-align: left;
+    left: 0;
+    right: 0;
+   }
+
+.ks-desc-title{
+    font-size: 46px;
+    font-weight: bold;
+    margin-left: 1%;
+    color: white;
+}
+
+.ks-desc{
+    margin-top: 2%;
+    font-size: 24px;
+    color: white;
+    margin-left: 1%;
+}
+
+.ks-img{
+    margin-right: 1%;
+}
+
+.ks-list{
+    margin-left: 2%;
+    color: white;
+    font-size: 24px;
+}
+
+.rect {
+    margin-top: 2%;
+    background-color: rgba(19, 63, 102, 65%);
+    width: 80%;
+    height:80%;
+    min-height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    padding:10px;
+    word-wrap:break-word;
+  }
+
+
 
