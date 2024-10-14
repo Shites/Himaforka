@@ -198,6 +198,11 @@ p{
 .carousel{
     margin-top: 5%;
 }
+
+.inf-cr{
+    border-radius: 20px;
+}
+
 .card{
     border-radius: 20px !important;
     border: none;
@@ -388,6 +393,84 @@ p{
     margin-right: auto;
     border-radius: 20px;
     width: 100%;
+}
+
+/* kelompok studi */
+
+.ks-title{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.ks-p{
+    color: white;
+    font-size: 26px;
+    padding: 2% 24% 2% 24%;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.white-ks{
+    color: #133F66;
+    background-color: white;
+}
+.kelompok-studi{
+    padding: 5% 5% 10% 5%;
+    background: url(../asset/image/kelompok.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-blue{
+    background-color: rgba(19, 63, 102, 65%) !important;
+    border-radius: 30px;
+}
+
+.ks-item{
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+}
+
+.actv{
+    background-color: white !important;
+    color: black !important;
+    border-radius: 25px;
+}
+
+
+
+.ks-btn{
+    color: white;
+    font-weight: 500;
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right:20px;
+    margin-right: 2rem;
+    border:none;
+    background-color: transparent;
+    transition: 0.2s;
+}
+
+.ks-btn:hover{
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    animation: fadein 0.5s;
+}
+
+
+
+.ks-cr{
+    border-radius: 20px;
+}
+
+
+.ks-cr-img{
+    width: 80%;
+    border-radius: 20px;
 }
   
 

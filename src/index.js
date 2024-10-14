@@ -43,6 +43,19 @@ for (var i = 0; i < btns.length; i++) {
   });
 }
 
+// Add active class to the current button (highlight it)
+var header = document.getElementById("ks-nav");
+var btns = header.getElementsByClassName("ks-btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("actv");
+  current[0].className = current[0].className.replace(" actv", "");
+  this.className += " actv";
+  });
+}
+
+
+
 var $content = $('.menu-content');
 
 function showContent(type) {
@@ -60,6 +73,27 @@ $('.menu').on('click', '.menu-btn', function(e) {
 
 // show 'about' content only on page load (if you want)
 showContent('pengurus');
+
+var $contentks = $('.menu-content-ks');
+
+function showContentks(type) {
+  $contentks.hide().filter('.' + type).show();
+  $contentks.filter(':visible').fadeOut(0, function() 
+  {
+  $contentks.filter('.' + type).fadeIn(600);
+  });
+}
+
+$('.menu-ks').on('click', '.menu-btn-ks', function(e) {
+  showContentks(e.currentTarget.hash.slice(1));
+  e.preventDefault();
+  
+}); 
+
+// show 'about' content only on page load (if you want)
+showContentks('ksp');
+
+
 
 
 
