@@ -416,11 +416,14 @@ p{
     color: #133F66;
     background-color: white;
 }
+#ks{
+    background: url(../asset/image/kelompok.png);
+    background-image: cover; 
+    
+}
 .kelompok-studi{
     padding: 5% 5% 10% 5%;
-    background: url(../asset/image/kelompok.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+   
 }
 .bg-blue{
     background-color: rgba(19, 63, 102, 65%) !important;
@@ -469,7 +472,7 @@ p{
 
 
 .ks-cr-img{
-    width: 80%;
+    width: 90%;
     border-radius: 20px;
 }
   
