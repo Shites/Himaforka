@@ -24,9 +24,9 @@
     font-size: 20px;
 }
 
-.nav-item{
-    padding-left: 0.5%;
-    padding-right: 3.5%;
+#mainNav,.nav-item{
+    padding-left: 0.5% !important;
+    padding-right: 3.5% !important;
 }
 
 
@@ -192,14 +192,14 @@ p{
 .inf-titlewhite{
     background-color: white;
     color: #133F66;
-    padding: 0% 2%;
+    padding: 0% 0.5%;
 }
 
 .carousel{
     margin-top: 5%;
 }
 .card{
-    border-radius: 20px;
+    border-radius: 20px !important;
     border: none;
 }
 
@@ -208,6 +208,11 @@ p{
     font-weight: bold;
     font-size: 19px;
     margin-bottom: 2%;
+}
+
+.card-img-top{
+    border-top-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;
 }
 
 .card-title{
@@ -250,5 +255,139 @@ p{
     width: 40px;
     height: 40px;
   }
+
+  /* Keanggotaan Section */
+.kgt-title{
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.kgt-titleblue{
+    color: white;
+    background-color: #133F66;
+    padding: 0% 0.5% 0% 0.5%;
+}
+
+.kgt-desc{
+    color: black;
+    font-size: 25px;
+    padding: 2% 22% 2% 22%;
+    text-align: center;
+    margin-bottom: 3%;
+}
+.bg-light{
+    border-radius: 30px !important;
+}
+.kgt-container{
+    background-color: white;
+    padding: 10% 5% 3% 5%;
+}
+#kgt-container, .agt-item{
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+}
+
+#kgt-container, .agt-link{
+    padding-right: 50px !important;
+    text-align: center !important;
+}
+
+.menu-btn{
+    text-decoration: none;
+    font-size: 17px !important;
+    color: black;
+}
+
+.agt-btn{
+    font-weight: 500;
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right:20px;
+    margin-right: 2rem;
+    border:none;
+    background-color: transparent;
+    transition: 0.2s;
+}
+
+.menu-btn:hover{
+    color: white;
+}
+
+.agt-btn:hover{
+    background-color: #133F66;
+    color: white;
+    border-radius: 25px;
+    animation: fadein 0.5s;
+}
+
+.agt-link:hover{
+    color: white !important;
+}
+.navbar-expand, .navbar-collapse{
+    justify-content: center !important;
+}
+
+.stay{
+    background-color: #133F66;
+    color: white;
+    border-radius: 25px;
+}
+
+#cards{
+    margin-top: 3%;
+}
+
+.card-sl{
+    margin-bottom: 30%;
+}
+
+.card-agt{
+    background-color: #133F66;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.card-img-agt{
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.card,.anggota-card{
+    margin-top: 5%;
+    border: none !important;
+    width: 20rem;
+}
+
+.card-nama{
+    color: white !important;
+    font-size: 20px;
+    text-align: center;
+}
+
+.card-text-jabatan{
+    color: white;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.social-agt{
+    display: flex;
+    justify-content: center;
+}
+
+.agt-social-icon{
+    margin-right: 3%;
+}
+
+.agt-img{
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    width: 100%;
+}
   
 

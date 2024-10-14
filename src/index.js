@@ -32,6 +32,36 @@ window.addEventListener('DOMContentLoaded', event => {
 
 });
 
+// Add active class to the current button (highlight it)
+var header = document.getElementById("kgt-nav");
+var btns = header.getElementsByClassName("agt-btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("stay");
+  current[0].className = current[0].className.replace(" stay", "");
+  this.className += " stay";
+  });
+}
+
+var $content = $('.menu-content');
+
+function showContent(type) {
+  $content.hide().filter('.' + type).show();
+  $content.filter(':visible').fadeOut(0, function() 
+  {
+  $content.filter('.' + type).fadeIn(600);
+  });
+}
+
+$('.menu').on('click', '.menu-btn', function(e) {
+  showContent(e.currentTarget.hash.slice(1));
+  e.preventDefault();
+}); 
+
+// show 'about' content only on page load (if you want)
+showContent('pengurus');
+
+
 
 
 
