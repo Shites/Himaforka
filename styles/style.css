@@ -128,6 +128,7 @@ p{
 
 
 .about-container{
+    background-color: white;
     padding: 10% 5% 3% 5%;
 }
 
@@ -193,4 +194,61 @@ p{
     color: #133F66;
     padding: 0% 2%;
 }
-    
+
+.carousel{
+    margin-top: 5%;
+}
+.card{
+    border-radius: 20px;
+    border: none;
+}
+
+.card-text.card-text-top{
+    color: #133F66;
+    font-weight: bold;
+    font-size: 19px;
+    margin-bottom: 2%;
+}
+
+.card-title{
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.card-text{
+    color: black;
+    font-size: 20px;
+}
+
+.card-link{
+    color: #133F66;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.carousel-control-prev{
+    left: -5% !important;
+    right:500px;
+}
+.carousel-control-next{
+    left: 90%;
+}
+
+.carousel-control-prev-icon {
+    background-image: url('../asset/image/navleft.svg') !important;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40px;  /* Ukuran ikon */
+    height: 40px; /* Ukuran ikon */
+  }
+  
+  .carousel-control-next-icon {
+    background-image: url('../asset/image/navright.svg') !important;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+  }
+  
+
