@@ -96,9 +96,6 @@ showContentks('ksp');
 
 
 
-
-
-
 window.addEventListener('scroll', reveal);
 
 function reveal(){

@@ -589,3 +589,118 @@ p{
     margin-top: 2%;
 }
 
+.visi-misi{
+    padding: 5% 5% 5% 5%;
+    background: url(../asset/image/bgvisi.png);
+    background-image: cover;
+}
+
+.visi-misi-content{
+    padding: 5% 5% 5% 5%;
+}
+
+
+
+.sj-title{
+    margin-bottom: 5%;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+.white-sj{
+    padding: 0.5%;
+    background-color: white;
+    color: #133F66;
+}
+
+.rect-sj{
+    margin-top: 2%;
+    background-color: rgba(19, 63, 102, 65%);
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    padding:10px;
+    word-wrap:break-word;
+}
+
+.visi-rect{
+    margin-top: 5%;
+}
+
+.rect-sj-content{
+    margin-top: 2%;
+    background-color: rgba(19, 63, 102, 65%);
+    width: 120%;
+    min-height: 60px;
+    margin-left: 5%;
+    margin-right: auto;
+    border-radius: 20px;
+    padding:0px;
+    word-wrap:break-word;
+}
+
+.visi-title{
+    margin-left: 5%;
+    font-size: 50px;
+    padding: 10% 5% 10% 5%;
+    color: white;
+    font-weight: bold;
+}
+
+.visi-p{
+    padding: 3%;
+    color: white;
+    font-size: 19px;
+}
+
+.visi-img{
+    position: absolute;
+    top: 34.1%;
+}
+
+.logo-visi{
+    position: relative;
+    top: 10%;
+    left: 40%;
+}
+
+.vismis-img{
+    position: absolute;
+    top: 120%;
+    right: 49.5%;
+}
+
+.logo-vismis{
+    position: relative;
+    top: 10%;
+    left: 5%;
+}
+
+.v-title{
+    margin-left: 5%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    font-size: 38px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.visi-point{
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.misi-list{
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+
+.rect-vismis{
+    margin-left: 10%;
+}
