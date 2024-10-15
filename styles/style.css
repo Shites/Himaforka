@@ -520,4 +520,70 @@ p{
   }
 
 
+  /* Galeri */
+
+  .galeri-keg{
+    padding: 5% 5% 10% 5%;
+    background-color: white;
+  }
+
+  .galeri-title{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+  .blue-keg{
+    background-color: #133F66;
+    color: white;
+    padding: 0.5%;
+  }
+
+  .card-text-tanggal{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+  }
+
+  /* footer */
+
+  .footer{
+    padding: 7% 5% 3% 5%;
+    background-color: #133F66;
+  }
+
+  .logo-footer{
+    width:55%;
+    bottom: 30%;
+    left: 10%;
+    position: relative;
+  }
+
+  .title-link-foot{
+    font-size: 23px;
+    color: white;
+    font-weight: bold;
+  }
+
+  .link-foot{
+    color: white;
+    text-decoration: none;
+  }
+
+  .address{
+    font-size: 20px;
+    color: white;
+  }
+
+.footer-social{
+    font-size: 30px;
+}
+
+.footer-copyright{
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-top: 2%;
+}
 
