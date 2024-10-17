@@ -441,8 +441,6 @@ p{
     border-radius: 25px;
 }
 
-
-
 .ks-btn{
     color: white;
     font-weight: 500;
@@ -703,4 +701,63 @@ p{
 
 .rect-vismis{
     margin-left: 10%;
+}
+
+/* kepengurusan dan visi misi */
+
+
+.desc-bd{
+    background: url(/asset/image/bgvisi.png);
+}
+
+.dc-kp{
+    padding: 10% 5% 5% 5%;
+}
+
+.kp-title{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.kp-desc{
+    padding: 2% 10% 2% 10%;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+.white-db{
+    background-color: white;
+    color: #133F66;
+    padding: 0.5%;
+}
+
+.db-item{
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+}
+
+.kp-btn{
+    color: white;
+    font-weight: 500;
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right:20px;
+    margin-right: 2rem;
+    border:none;
+    background-color: transparent;
+    transition: 0.2s;
+}
+
+.kp-btn:hover{
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    animation: fadein 0.5s;
 }
